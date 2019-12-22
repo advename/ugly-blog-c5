@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Primary SCSS file - imports and bundles all other together as one
+   ========================================================================== */
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  max-width: 100%;
+}
+// Enable CSS only for the Theme, not for Concrete 5 core components
+.ccm-page {
+  width: 100vw;
+  max-width: 100%;
+
+  //Import the main files
+  @import "modules/_css-reset.less";
+  @import "modules/_colours.less";
+  @import "modules/_base.less";
+  @import "modules/_global.less";
+
+  //Import page specific files
+  @import "modules/_default-page.less";
+  @import "modules/_single-page.less";
+
+  //Import media queries
+  @import "modules/_media-queries.less";
+
+  //Import specials
+  @import "modules/_special.less";
+}

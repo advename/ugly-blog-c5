@@ -1,0 +1,85 @@
+//Define Global speicific styling, e.g. header, footer, nav, forms,...
+#body-content {
+  background: #f1faee;
+  width: 100vw;
+  max-width: 100%;
+}
+
+header {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: #1d3557;
+  height: 60px;
+  color: white;
+
+  nav {
+    ul,
+    li {
+      list-style: none;
+      text-decoration: none;
+    }
+    ul {
+      display: flex;
+      height: 60px;
+      align-items: center;
+      margin-right: 40px;
+    }
+    a {
+      color: white;
+      padding: 15px 20px;
+    }
+  }
+}
+
+footer {
+  background: #457b9d;
+  height: 60px;
+  width: 100vw;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  p {
+    color: rgb(188, 188, 188);
+  }
+}
+
+.text-content {
+  width: 100%;
+  p {
+    color: rgb(37, 37, 37);
+  }
+}
+
+.hero-big-img {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
+  .bg-img {
+    background: url("/assets/sample.jpeg") no-repeat center center;
+    background-size: auto;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80vh;
+    width: 100vw;
+    max-width: 100%;
+    filter: brightness(0.4);
+  }
+
+  h1 {
+    color: white;
+    position: relative;
+    z-index: 5;
+  }
+}

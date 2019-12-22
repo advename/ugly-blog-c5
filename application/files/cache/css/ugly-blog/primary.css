@@ -1,0 +1,418 @@
+/* ==========================================================================
+   Primary SCSS file - imports and bundles all other together as one
+   ========================================================================== */
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  max-width: 100%;
+}
+.ccm-page {
+  width: 100vw;
+  max-width: 100%;
+  /* HTML5 display-role reset for older browsers */
+  /* ==========================================================================
+   ATTENTION:
+   Use either the first approch for mobile first,
+   or the second approch for desktop first.
+
+   DELETE THE APPROACH YOU DONT NEED!
+   ========================================================================== */
+  /* 
+#
+#
+#
+#
+#
+*/
+  /* ==========================================================================
+   FIRST APPROACH - MOBILE FIRST
+   ========================================================================== */
+  /* 
+#
+#
+#
+#
+#
+*/
+  /* ==========================================================================
+   SECOND APPROACH - DESKTOP FIRST
+   ========================================================================== */
+}
+.ccm-page html,
+.ccm-page body,
+.ccm-page div,
+.ccm-page span,
+.ccm-page applet,
+.ccm-page object,
+.ccm-page iframe,
+.ccm-page h1,
+.ccm-page h2,
+.ccm-page h3,
+.ccm-page h4,
+.ccm-page h5,
+.ccm-page h6,
+.ccm-page p,
+.ccm-page blockquote,
+.ccm-page pre,
+.ccm-page a,
+.ccm-page abbr,
+.ccm-page acronym,
+.ccm-page address,
+.ccm-page big,
+.ccm-page cite,
+.ccm-page code,
+.ccm-page del,
+.ccm-page dfn,
+.ccm-page em,
+.ccm-page img,
+.ccm-page ins,
+.ccm-page kbd,
+.ccm-page q,
+.ccm-page s,
+.ccm-page samp,
+.ccm-page small,
+.ccm-page strike,
+.ccm-page strong,
+.ccm-page sub,
+.ccm-page sup,
+.ccm-page tt,
+.ccm-page var,
+.ccm-page b,
+.ccm-page u,
+.ccm-page i,
+.ccm-page center,
+.ccm-page dl,
+.ccm-page dt,
+.ccm-page dd,
+.ccm-page ol,
+.ccm-page ul,
+.ccm-page li,
+.ccm-page fieldset,
+.ccm-page form,
+.ccm-page label,
+.ccm-page legend,
+.ccm-page table,
+.ccm-page caption,
+.ccm-page tbody,
+.ccm-page tfoot,
+.ccm-page thead,
+.ccm-page tr,
+.ccm-page th,
+.ccm-page td,
+.ccm-page article,
+.ccm-page aside,
+.ccm-page canvas,
+.ccm-page details,
+.ccm-page embed,
+.ccm-page figure,
+.ccm-page figcaption,
+.ccm-page footer,
+.ccm-page header,
+.ccm-page hgroup,
+.ccm-page menu,
+.ccm-page nav,
+.ccm-page output,
+.ccm-page ruby,
+.ccm-page section,
+.ccm-page summary,
+.ccm-page time,
+.ccm-page mark,
+.ccm-page audio,
+.ccm-page video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.ccm-page article,
+.ccm-page aside,
+.ccm-page details,
+.ccm-page figcaption,
+.ccm-page figure,
+.ccm-page footer,
+.ccm-page header,
+.ccm-page hgroup,
+.ccm-page menu,
+.ccm-page nav,
+.ccm-page section,
+.ccm-page div {
+  display: block;
+}
+.ccm-page body {
+  line-height: 1;
+}
+.ccm-page ol,
+.ccm-page ul {
+  list-style: none;
+}
+.ccm-page blockquote,
+.ccm-page q {
+  quotes: none;
+}
+.ccm-page blockquote:before,
+.ccm-page blockquote:after,
+.ccm-page q:before,
+.ccm-page q:after {
+  content: "";
+  content: none;
+}
+.ccm-page table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.ccm-page h1 {
+  font-size: 2em;
+}
+.ccm-page h2 {
+  font-size: 1.5em;
+}
+.ccm-page h3 {
+  font-size: 1.17em;
+}
+.ccm-page h4 {
+  margin-top: 1.33em;
+}
+.ccm-page h5 {
+  font-size: 0.83em;
+}
+.ccm-page h6 {
+  font-size: 0.67em;
+}
+.ccm-page p {
+  font-size: 16px;
+}
+.ccm-page *,
+.ccm-page *:before,
+.ccm-page *:after {
+  box-sizing: border-box;
+}
+.ccm-page .default-text-style p,
+.ccm-page .default-text-style h1,
+.ccm-page .default-text-style h2,
+.ccm-page .default-text-style h3,
+.ccm-page .default-text-style h4,
+.ccm-page .default-text-style h5,
+.ccm-page .default-text-style h6,
+.ccm-page .default-text-style a,
+.ccm-page .default-text-style li,
+.ccm-page .default-text-style ul,
+.ccm-page .default-text-style label,
+.ccm-page .default-text-style div,
+.ccm-page .default-text-style button {
+  font-family: sans-serif;
+  color: #111111;
+}
+.ccm-page .default-header-style h1,
+.ccm-page .default-header-style h2,
+.ccm-page .default-header-style h3,
+.ccm-page .default-header-style h4,
+.ccm-page .default-header-style h5,
+.ccm-page .default-header-style h6 {
+  font-weight: bold;
+}
+.ccm-page .default-anchor-style a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.ccm-page p,
+.ccm-page h1,
+.ccm-page h2,
+.ccm-page h3,
+.ccm-page h4,
+.ccm-page h5,
+.ccm-page h6,
+.ccm-page a,
+.ccm-page li,
+.ccm-page ul,
+.ccm-page label,
+.ccm-page div,
+.ccm-page button {
+  font-family: sans-serif;
+  color: #111111;
+}
+.ccm-page h1,
+.ccm-page h2,
+.ccm-page h3,
+.ccm-page h4,
+.ccm-page h5,
+.ccm-page h6 {
+  font-weight: bold;
+}
+.ccm-page a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.ccm-page #body-content {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.ccm-page #body-content {
+  background: #f1faee;
+  width: 100vw;
+  max-width: 100%;
+}
+.ccm-page header {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: #1d3557;
+  height: 60px;
+  color: white;
+}
+.ccm-page header nav ul,
+.ccm-page header nav li {
+  list-style: none;
+  text-decoration: none;
+}
+.ccm-page header nav ul {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin-right: 40px;
+}
+.ccm-page header nav a {
+  color: white;
+  padding: 15px 20px;
+}
+.ccm-page footer {
+  background: #457b9d;
+  height: 60px;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.ccm-page footer p {
+  color: #bcbcbc;
+}
+.ccm-page .text-content {
+  width: 100%;
+}
+.ccm-page .text-content p {
+  color: #252525;
+}
+.ccm-page .hero-big-img {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
+}
+.ccm-page .hero-big-img .bg-img {
+  background: url("/assets/sample.jpeg") no-repeat center center;
+  background-size: auto;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100vw;
+  max-width: 100%;
+  filter: brightness(0.4);
+}
+.ccm-page .hero-big-img h1 {
+  color: white;
+  position: relative;
+  z-index: 5;
+}
+.ccm-page #default-page {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+.ccm-page #default-page .latest-blog-posts {
+  width: 100vw;
+  max-width: 100%;
+  padding: 50px;
+}
+.ccm-page #default-page .latest-blog-posts .label {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2e2e2e;
+}
+.ccm-page #default-page .latest-blog-posts .latest-blog-posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  /* keeps all grid boxes same height, else remove */
+  grid-gap: 50px;
+}
+.ccm-page #default-page .latest-blog-posts .latest-blog-posts-container p {
+  color: white;
+}
+.ccm-page #default-page .latest-blog-posts .latest-blog-posts-container .post {
+  background: #457b9d;
+  padding: 10px;
+}
+.ccm-page #default-page .latest-blog-posts .latest-blog-posts-container .post .title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.ccm-page #default-page .latest-blog-posts .latest-blog-posts-container a {
+  color: #14c9f1;
+  text-transform: uppercase;
+  margin-top: 15px;
+  display: block;
+}
+.ccm-page #single-page {
+  min-height: calc(100vh - 200px);
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+.ccm-page #single-page .sp-header {
+  padding: 50px 50px 20px 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ccm-page #single-page .sp-header h1 {
+  color: #303030;
+}
+.ccm-page #single-page #single-page-divider {
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  padding: 50px;
+}
+.ccm-page #single-page #single-page-divider p {
+  color: black;
+  margin-bottom: 10px;
+}
+.ccm-page #single-page #single-page-divider .left-side {
+  width: calc(100% - 200px);
+  margin-right: 50px;
+}
+.ccm-page #single-page #single-page-divider .widgets {
+  background: #457b9d;
+  width: 200px;
+  padding: 50px 20px;
+}
+.ccm-page #single-page #single-page-divider .widgets .latest-posts-widget ul {
+  list-style: disc;
+}
+.ccm-page #single-page #single-page-divider .widgets .latest-posts-widget a {
+  color: white;
+}
+.ccm-page strong {
+  font-weight: 700;
+}
+.ccm-page .clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.ccm-page .hide {
+  display: none !important;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+    <table name="btTextBlock">
+
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+
+        <field name="textContent" type="X2"></field>
+
+        <field name="blockPadding" type="C" size="255"></field>
+
+    </table>
+
+</schema>

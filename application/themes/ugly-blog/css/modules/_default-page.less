@@ -1,0 +1,45 @@
+// All styling for the default page
+#default-page {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+
+  .latest-blog-posts {
+    width: 100vw;
+    max-width: 100%;
+    padding: 50px;
+
+    .label {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: rgb(46, 46, 46);
+    }
+    .latest-blog-posts-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 1fr; /* keeps all grid boxes same height, else remove */
+      grid-gap: 50px;
+      p {
+        color: white;
+      }
+
+      .post {
+        background: #457b9d;
+        padding: 10px;
+        .title {
+          font-size: 24px;
+          margin-bottom: 12px;
+        }
+        .desc {
+        }
+      }
+
+      a {
+        color: rgb(20, 201, 241);
+        text-transform: uppercase;
+        margin-top: 15px;
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+#single-page {
+  min-height: calc(~"100vh - 200px");
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  .sp-header {
+    padding: 50px 50px 20px 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    h1 {
+      color: rgb(48, 48, 48);
+    }
+  }
+
+  #single-page-divider {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    padding: 50px;
+
+    p {
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .left-side {
+      width: calc(~"100% - 200px");
+      margin-right: 50px;
+    }
+    .widgets {
+      background: #457b9d;
+      width: 200px;
+      padding: 50px 20px;
+      .latest-posts-widget {
+        ul {
+          list-style: disc;
+        }
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

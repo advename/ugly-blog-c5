@@ -1,0 +1,57 @@
+// Max content width
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.default-text-style {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  li,
+  ul,
+  label,
+  div,
+  button {
+    font-family: sans-serif;
+    color: rgb(17, 17, 17);
+  }
+}
+
+.default-header-style {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+}
+
+.default-anchor-style {
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.default-text-style();
+.default-header-style();
+.default-anchor-style();
+
+//<body> replacement
+#body-content {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
